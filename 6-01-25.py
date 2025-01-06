@@ -1,8 +1,8 @@
 def calculate_grade():
     try:
-        subject1 = float(input("Enter marks for Subject 1: "))
-        subject2 = float(input("Enter marks for Subject 2: "))
-        subject3 = float(input("Enter marks for Subject 3: "))
+        subject1 = float(input("Subject 1 marks: "))
+        subject2 = float(input("Subject 2 marks: "))
+        subject3 = float(input("Subject 3 marks: "))
         average = (subject1 + subject2 + subject3) / 3
         if average >= 90:
             grade = "A"
